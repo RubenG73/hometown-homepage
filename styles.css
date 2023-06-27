@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    font-family: 'Spinnaker', sans-serif;
+
+
+}
+
+#hero {
+    background-image: url(images/Ciudad-de-Córdoba-1.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 10em 0;
+    color: whitesmoke;
+    text-shadow: 0px 0px 1px black;
+}
+
+h1 {
+    background: #965331ff;
+    margin: 0 auto;
+    width: 400px;
+    border-radius: 6px;
+}
+
+#title-text {
+    font-size: 1.2rem;
+    background: #AEB0BBff;
+    width: 600px;
+    margin: 10px auto;
+    color: black;
+}
+
+#activities {
+    text-align: center;
+    font-size: 1.2em;
+    padding-top: 20px;
+    background: #564A49ff;
+    color: whitesmoke;
+    text-shadow: 0px 0px 5px black;
+    
+}
+
+
+
+.places-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    text-align: center;
+    padding: 1em 0;
+
+
+}
+
+.place-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.place {
+    width: 300px;
+}
+
+.card {
+    width: 500px;
+    margin: 1em auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #023047;
+    color: #e5e5e5;
+    border-bottom: 6px solid #838593ff;
+    border-radius: 10px;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 3px;
+    margin-right: 20px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+}
+
+#guide {
+    background: #34343Bff;
+    padding: 2em;
+}
